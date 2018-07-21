@@ -49,6 +49,7 @@
 \RequirePackage{filecontents}
 \RequirePackage{natbib}
 \RequirePackage{bibentry}
+\RequirePackage{tipa}
 %-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}

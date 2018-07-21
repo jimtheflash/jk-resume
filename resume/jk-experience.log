@@ -1,27 +1,27 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.20)  21 JUL 2018 09:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.20)  21 JUL 2018 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**jk-summary.tex
-(./jk-summary.tex
+**jk-experience.tex
+(./jk-experience.tex
 LaTeX2e <2018-04-01> patch level 5
-./jk-summary.tex:4: Undefined control sequence.
+./jk-experience.tex:4: Undefined control sequence.
 l.4 \cvsection
-              {Summary}
+              {Experience}
 ? 
-./jk-summary.tex:4: Emergency stop.
+./jk-experience.tex:4: Emergency stop.
 l.4 \cvsection
-              {Summary}
+              {Experience}
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
  4 strings out of 492969
- 54 string characters out of 6133923
+ 66 string characters out of 6133923
  63792 words of memory out of 5000000
  4113 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 4i,0n,1p,97b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 4i,0n,1p,100b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
