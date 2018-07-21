@@ -46,6 +46,10 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
+\RequirePackage{filecontents}
+\RequirePackage{natbib}
+\RequirePackage{bibentry}
+%-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
@@ -66,6 +70,7 @@
 \RequirePackage{etoolbox}
 % Needed to change line spacing in specific environment
 \RequirePackage{setspace}
+%\RequirePackage{cite}
 % Needed to manage fonts
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
@@ -73,8 +78,8 @@
 % Needed to manage math fonts
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
-% (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+% (https://github.com/posquit0/latex-esome)
+\RequirePackage{fontawesome5}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -161,7 +166,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\newfontfamily\FA[Path=\@fontdir]{FontAwesome5}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
@@ -378,15 +383,15 @@
 \newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
 \newcommand{\acvHeaderIconSep}{\space}
 \newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-% CHANGING SPACING HERE; uncomment to revert
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
+% CHANGING SPACING HERE; uncomment to revert
 \newcommand{\acvSectionTopSkip}{1mm}
-% \newcommand{\acvSectionTopSkip}{1mm}
-% \newcommand{\acvSectionContentTopSkip}{2.5mm}
 \newcommand{\acvSectionContentTopSkip}{1mm}
+% \newcommand{\acvSectionTopSkip}{3mm}
+% \newcommand{\acvSectionContentTopSkip}{2.5mm}
 
 %-------------------------------------------------------------------------------
 %                Commands for utilities
@@ -484,7 +489,13 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\acvHeaderIconSep\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
+        }%
+      \ifthenelse{\isundefined{\@researchgate}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://www.researchgate.net/profile/\@researchgate}{\faResearchgate\acvHeaderIconSep\@researchgate}%
         }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
