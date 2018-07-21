@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.20)  21 JUL 2018 16:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.20)  21 JUL 2018 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1287,10 +1287,6 @@ LaTeX Info: Redefining \nameref on input line 75.
 \@outlinefile=\write6
 \openout6 = `jk-resume.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \headertextwidth=\skip81
 \headerphotowidth=\skip82
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1352,7 +1348,7 @@ t line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 24.
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 82--99
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 81--97
    [] 
  []
 
@@ -1380,16 +1376,16 @@ Overfull \hbox (48.5391pt too wide) in alignment at lines 10--33
 
 ) (./resume/jk-education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 12.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 12.0pt on input line 10.
 
-Overfull \hbox (2.92001pt too wide) in paragraph at lines 33--41
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 39--51
    [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 65.
+(Font)              scaled to size 9.0pt on input line 76.
 )
 
 Package bibentry Warning: You have used \nobibliography* 
@@ -1408,10 +1404,10 @@ Package rerunfilecheck Info: File `jk-resume.out' has not changed.
 Here is how much of TeX's memory you used:
  39604 strings out of 492969
  767951 string characters out of 6133923
- 974337 words of memory out of 5000000
+ 973452 words of memory out of 5000000
  43079 multiletter control sequences out of 15000+600000
  536150 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,11n,89p,839b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,12n,89p,839b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on jk-resume.pdf (2 pages).
