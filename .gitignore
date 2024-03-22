@@ -1,3 +1,4 @@
 .log
 fonts/*.log
 resume/*.log
+.Rproj.user
