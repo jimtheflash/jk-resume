@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.22)  13 JAN 2025 16:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.22)  13 JAN 2025 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,6 +1005,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 22.
+
+
+LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 22.
+
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
@@ -1014,12 +1021,9 @@ t line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 22.
 
-
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
 (Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 48.
 
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 48.
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
 (Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 61.
